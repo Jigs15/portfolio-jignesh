@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Home() {
+function App() {
   return (
     <main className="min-h-screen bg-white text-gray-900 font-sans p-6">
       <header className="mb-10 border-b pb-6">
@@ -23,11 +21,7 @@ export default function Home() {
           >
             LinkedIn
           </a>
-          <a
-            href="/resume.pdf"
-            className="text-blue-600 underline"
-            download
-          >
+          <a href="/resume.pdf" className="text-blue-600 underline" download>
             Download Resume
           </a>
         </div>
@@ -39,17 +33,19 @@ export default function Home() {
           <li className="border p-4 rounded shadow-sm">
             <h4 className="font-semibold">AI Risk Prediction Model</h4>
             <p>
-              Developed a deep learning model to classify health-related risk using
-              structured patient data. Improved accuracy using multiple hidden layer
-              configurations.
+              Developed a deep learning model to classify health-related risk
+              using structured patient data. Improved accuracy using multiple
+              hidden layer configurations.
             </p>
           </li>
           <li className="border p-4 rounded shadow-sm">
-            <h4 className="font-semibold">MONAI: Diabetic Retinopathy Classification</h4>
+            <h4 className="font-semibold">
+              MONAI: Diabetic Retinopathy Classification
+            </h4>
             <p>
-              Used MONAI and the Diabetic Retinopathy dataset to classify retina images.
-              Applied transforms, trained a CNN model, and evaluated performance on
-              validation data.
+              Used MONAI and the Diabetic Retinopathy dataset to classify retina
+              images. Applied transforms, trained a CNN model, and evaluated
+              performance on validation data.
             </p>
           </li>
         </ul>
@@ -61,3 +57,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default App;
