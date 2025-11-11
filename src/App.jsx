@@ -607,7 +607,7 @@ function App() {
         </p>
         <div className="mt-3 text-center md:text-left">
           <a
-            href="https://github.com/Jigs15/fhir-ehr-integration" // replace with your real link
+            href="https://fhir-patient-viewer-quecxutpmmplutrz24frpl.streamlit.app/" // replace with your real link
             target="_blank"
             rel="noreferrer"
             className="inline-block text-xs md:text-sm text-[#ffdd99] underline"
